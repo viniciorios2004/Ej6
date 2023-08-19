@@ -1,0 +1,46 @@
+package Listas;
+
+import java.util.ArrayList;
+import java.util.List;
+public class ClsArrayList {
+
+public void ejemplo1(){
+    List<String> tasklist = new ArrayList<String>();
+
+    tasklist.add("Hacer compras");
+    tasklist.add("sacar el perro");
+    tasklist.add("hacer la cama");
+    tasklist.add("lavar el carro");
+
+    System.out.println(tasklist);
+    string primer tarea = tasklist.get(0);
+    System.out.println("primer:"+primertarea);
+    //remover item
+    tasklist.remove(index: 0);
+    primerTarea = taskList.get(0);
+    System.out.println("primer:"+primerTarea);
+
+
+    public void listaTareas(){
+        List<CmstaskList> task = new ArrayList<>();
+        Cmstasklist tareaIndividual = new Cmstasklist();
+        tareaIndividual.setTaskname("hacer compras");
+        tareaIndividual.setTaskDescription("ir a la torre");
+        tareaIndividual.setDone(false);
+        task.add(tareaIndividual);
+
+        tareaIndividual.setTaskname("ir a votar");
+        tareaIndividual.setTaskDescription("cumplir con mi pais");
+        tareaIndividual.setDone(false);
+        task.add(tareaIndividual);
+
+        int tarea_numero =0;
+        for (Cmstasklist tl : task){
+            Sys
+        }
+    }
+}
+
+}
+
+
